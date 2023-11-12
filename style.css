@@ -32,12 +32,12 @@ body{
     position: relative ;
 }
 
-#page1 video{
+#page1>video{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-#page1 nav{
+#page1>nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,11 +46,11 @@ body{
     height: 10vh;
     width: 100vw;
 }
-#page1 nav img{
+#page1>nav>img{
     margin-top: -1.7vw;
     width: 9%;
 }
-#right-nav button{
+#right-nav>button{
     padding: 10px 20px;
     border-radius: 50px;
     background-color:#083FDC ;
@@ -67,7 +67,7 @@ body{
     width: 50vw;
     left: 10%;
 }
-.bottom-page1 h1 {
+.bottom-page1>h1{
     font-family: a;
     font-size: 5vw;
     font-weight: 100;
@@ -86,7 +86,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.bottom-page1-inner button{
+.bottom-page1-inner>button{
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
@@ -95,7 +95,7 @@ body{
     font-size: 16px;
     font-family: b;
 }
-.bottom-page1-inner h4 {
+.bottom-page1-inner>h4{
     font-size: 1.3vw;
     font-weight: 100;
     color: #fff;
@@ -113,12 +113,24 @@ body{
     padding: 0vw 8vw;
     color: #FFFFFF;
 }
-#page2 h2 {
+#page2>h2{
    font-weight: 100;
    margin-bottom: 3vw;
 }
-#page2 h1{
+#page2>h1{
     width: 90%;
     line-height: 1.3;
     font-size: 4vw;
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A3CCE;
+}
+#page3>canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
 }
