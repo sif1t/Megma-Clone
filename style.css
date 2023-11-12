@@ -12,6 +12,19 @@ body{
     position: relative;
     overflow: hidden;
 }
+
+@font-face{
+    font-family: a;
+    src: url(./image/jost-variable.ttf);
+}
+@font-face{
+    font-family: b;
+    src: url(./image/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face{
+    font-family: c;
+    src: url(./image/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
 #page1{
     height: 100vh;
     width: 100vw;
@@ -25,8 +38,21 @@ body{
     object-fit: cover;
 }
 #page1 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
     position: absolute;
     height: 10vh;
     width: 100vw;
-    background-color: yellow;
+}
+#page1 nav img{
+    width: 9%;
+}
+#right-nav button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color:#083FDC ;
+    border: 1px solid #fff;
+    color: #fff;
 }
