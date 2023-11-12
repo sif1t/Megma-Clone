@@ -63,21 +63,46 @@ body{
 .bottom-page1{
     position: absolute;
     bottom: 5%;
-    height: 40vh;
+    height: 35vh;
     width: 50vw;
-    background-color: red;
-    left: 5%;
+    left: 10%;
 }
 .bottom-page1 h1 {
     font-family: a;
     font-size: 5vw;
     font-weight: 100;
     line-height: 1;
+    color: #fff;
 }
 .bottom-page1-inner{
     position: absolute;
     bottom: 0%;
     height: 35%;
     width: 100%;
-    background-color: magenta;
+}
+.bottom-page1-inner{
+    font-family: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-page1-inner button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #083FDC;
+    font-size: 16px;
+    font-family: b;
+}
+.bottom-page1-inner h4 {
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: #fff;
+}
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: relative;
 }
