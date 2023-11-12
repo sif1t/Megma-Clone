@@ -47,6 +47,7 @@ body{
     width: 100vw;
 }
 #page1 nav img{
+    margin-top: -1.7vw;
     width: 9%;
 }
 #right-nav button{
@@ -55,4 +56,28 @@ body{
     background-color:#083FDC ;
     border: 1px solid #fff;
     color: #fff;
+    font-family: a;
+    font-size: 15px;
+}
+
+.bottom-page1{
+    position: absolute;
+    bottom: 5%;
+    height: 40vh;
+    width: 50vw;
+    background-color: red;
+    left: 5%;
+}
+.bottom-page1 h1 {
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+}
+.bottom-page1-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    background-color: magenta;
 }
