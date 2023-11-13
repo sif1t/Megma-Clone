@@ -30,6 +30,7 @@ ScrollTrigger.refresh();
 }
 loco()
 
+// page2 h1 text animation 
 
 var clutter = "";
 
@@ -73,7 +74,7 @@ function files(index) {
   ./frames00007.png
   ./frames00010.png
   ./frames00013.png
-  ./frames00016.png
+  ./frames00016.PNG
   ./frames00019.png
   ./frames00022.png
   ./frames00025.png
@@ -203,3 +204,24 @@ ScrollTrigger.create({
 });
 }
 canvas()
+
+// page4 h1 text animation 
+var clutter = "";
+
+document.querySelector("#page4>h1").textContent.split("").forEach(function(dets){
+    clutter += `<span>${dets}</span>`
+
+    document.querySelector("#page4>h1").innerHTML = clutter;
+})
+
+gsap.to("#page4>h1>span",{
+  scrollTrigger:{
+      trigger:`#page4>h1>span`,
+      start:`top bottom`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,
+  },
+  stagger:.2,
+  color:`#fff`
+})
