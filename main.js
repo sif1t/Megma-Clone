@@ -401,7 +401,7 @@ gsap.to("#page6>h1>span",{
 
 
 
-// canvas page5
+// canvas page7
 function canvas2(){
   const canvas = document.querySelector("#page7>canvas");
 const context = canvas.getContext("2d");
@@ -623,4 +623,27 @@ end: `250% top`,
 });
 }
 canvas2()
+
+gsap.to(".page7-cir",{
+  scrollTrigger:{
+    trigger:`.page7-cir`,
+    start:`top center`,
+    end: `bottom top`,
+    // markers:true,
+    scroller:`#main`,
+    scrub:.5
+  },
+  scale:1.5
+})
+gsap.to(".page7-cir-inner",{
+  scrollTrigger:{
+    trigger:`.page7-cir`,
+    start:`top center`,
+    end: `bottom top`,
+    // markers:true,
+    scroller:`#main`,
+    scrub:.5
+  },
+  backgroundColor:`#093DCD`,
+})
 
