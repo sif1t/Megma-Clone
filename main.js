@@ -644,6 +644,6 @@ gsap.to(".page7-cir-inner",{
     scroller:`#main`,
     scrub:.5
   },
-  backgroundColor:`#093DCD`,
+  backgroundColor:`#0340D5`,
 })
 
