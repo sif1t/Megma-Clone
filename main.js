@@ -642,7 +642,7 @@ gsap.to(".page7-cir-inner",{
     end: `bottom top`,
     // markers:true,
     scroller:`#main`,
-    scrub:.5
+    scrub: .5
   },
   backgroundColor:`#0340D5`,
 })
