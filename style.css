@@ -398,3 +398,25 @@ background-size: cover;
     width: 100vw;
     background-color:#02268E;
 }
+.page12-inner{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    color: #fff;
+    font-family: a;
+}
+.page12-inner>h1{
+    font-size: 5vw;
+    font-weight: 100;
+}
+.page12-inner>p{
+    font-size: 1.3vw;
+}
+#page13{
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-color: #000;
+    color: #222;
+    font-family: a;
+}
