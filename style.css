@@ -323,6 +323,9 @@ background-size: cover;
 }
 
 .right10-inner{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
     height: 33.3%;
     width: 100%;
     /* background-color: mediumorchid; */
@@ -333,6 +336,22 @@ background-size: cover;
     font-size: 2vw;
 }
 .right10-inner>p{
+    margin-top: 2vw;
     font-size: 1.3vw;
     width: 80%;
+}
+#page11{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:#fff;
+    font-family: a;
+}
+#page11>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 4vw;
+    color: #000;
+    font-weight: 100;
 }
