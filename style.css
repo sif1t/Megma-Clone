@@ -342,7 +342,7 @@ background-size: cover;
 }
 #page11{
     position: relative;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color:#fff;
     font-family: a;
@@ -360,15 +360,13 @@ background-size: cover;
     top: 18%;
     position: relative;
     margin-bottom: 2vw;
-    height: 25%;
+    height: 24%;
     width: 100%;
-    /* background-color: green; */
 }
 .left11{
     position: relative;
     height: 100%;
     width: 40%;
-    /* background-color: maroon; */
     left: 5%;
     border-radius: 10px;
     overflow: hidden;
@@ -386,11 +384,17 @@ background-size: cover;
     position: absolute;
     height: 100%;
     width: 50%;
-    /* background-color: mediumorchid; */
 }
 .right11>h4{
     font-weight: 100;
 }
 .right11>h1{
     font-size: 2vw;
+}
+
+#page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:#02268E;
 }
