@@ -355,3 +355,36 @@ background-size: cover;
     color: #000;
     font-weight: 100;
 }
+.page11-inner{
+    display: flex;
+    top: 18%;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 25%;
+    width: 100%;
+    background-color: green;
+}
+.left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: maroon;
+    left: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left11>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.right11{
+    padding-top: 5%; 
+    color: #000;
+    flex-direction: column;
+    left: 50%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: mediumorchid;
+}
