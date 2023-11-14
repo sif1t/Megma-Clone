@@ -419,4 +419,45 @@ background-size: cover;
     background-color: #000;
     color: #222;
     font-family: a;
+    padding: 7vw 10vw;
+}
+#page13>h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 100;
+}
+#page13>button{
+    padding: 18px 30px;
+    border: none;
+    background-color:#0A3CCE;
+    color: #fff;
+    border-radius:50px;
+    margin-top: 2vw;
+}
+#page14{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #000;
+}
+.page14-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    font-family: a;
+    height: 33.3%;
+    width: 100%;
+    /* background-color: greenyellow; */
+    color: #fff;
+    border-top:.5px solid #ffffff42;
+    border-bottom: .5px solid #ffffff42;
+}
+.page14-inner>i{
+    font-weight: 100;
+    font-size: 2.4vw;
+}
+.page14-inner>h1{
+    font-size: 3vw;
+    font-weight: 100;
 }
