@@ -362,13 +362,13 @@ background-size: cover;
     margin-bottom: 2vw;
     height: 25%;
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
 }
 .left11{
     position: relative;
     height: 100%;
     width: 40%;
-    background-color: maroon;
+    /* background-color: maroon; */
     left: 5%;
     border-radius: 10px;
     overflow: hidden;
@@ -386,5 +386,11 @@ background-size: cover;
     position: absolute;
     height: 100%;
     width: 50%;
-    background-color: mediumorchid;
+    /* background-color: mediumorchid; */
+}
+.right11>h4{
+    font-weight: 100;
+}
+.right11>h1{
+    font-size: 2vw;
 }
