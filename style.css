@@ -441,6 +441,7 @@ background-size: cover;
     background-color: #000;
 }
 .page14-inner{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -456,8 +457,25 @@ background-size: cover;
 .page14-inner>i{
     font-weight: 100;
     font-size: 2.4vw;
+    position: relative;
+    z-index: 9999;
 }
 .page14-inner>h1{
     font-size: 3vw;
     font-weight: 100;
+    position: relative;
+    z-index: 9999;
+}
+.center14{
+    height: 0%;
+    width: 100%;
+    background-color: #0A3CCE;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all ease .5s;
+}
+.page14-inner:hover .center14{
+    height: 100%;
 }
